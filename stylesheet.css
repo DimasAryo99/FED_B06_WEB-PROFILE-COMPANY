@@ -33,7 +33,13 @@ header {
     font-weight: bold;
 }
 
-.header-list:hover{
+.header-list .About_Page:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+.header-list .Profil_Page:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+.header-list .Contact_Page:hover{
     color: rgba(0, 0, 0, 0.5);
 }
 
