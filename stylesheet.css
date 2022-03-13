@@ -9,8 +9,10 @@ header {
     background-color: hsla(152, 61%, 42%, 0.795);
     color: #fff;
     height: 90px;
+    top: 0px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
- .container{
+ .navbar{
     width: 1170px;
     padding: 0px auto;
     float:left;
@@ -29,7 +31,7 @@ header {
     font-size:20px;
     margin:10px 20px;
     display: block;
-    transition: all 0.5s;
+    
     font-weight: bold;
 }
 a{
@@ -40,6 +42,12 @@ a:hover{
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     cursor: pointer;  
+}
+
+#footer{
+    font-size: 20px;
+    text-align:  center;
+    margin-bottom: 20px;
 }
 
 /* .header-list .About_Page:hover{
