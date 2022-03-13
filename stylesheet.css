@@ -26,14 +26,23 @@ header {
 }
 .header-list li{
     float: left;
-    font-size:24px;
+    font-size:20px;
     margin:10px 20px;
     display: block;
     transition: all 0.5s;
     font-weight: bold;
 }
+a{
+    color: #fff;
+}
 
-.header-list .About_Page:hover{
+a:hover{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    cursor: pointer;  
+}
+
+/* .header-list .About_Page:hover{
     color: rgba(0, 0, 0, 0.5);
 }
 .header-list .Profil_Page:hover{
@@ -41,5 +50,5 @@ header {
 }
 .header-list .Contact_Page:hover{
     color: rgba(0, 0, 0, 0.5);
-}
+} */
 
