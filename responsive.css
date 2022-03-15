@@ -1,1 +1,20 @@
 /* coba commit */
+@media (max-width:670px) {
+    .main{
+        text-align:left;
+        padding-top:130px;
+    }
+    .service{
+        width: 70%;
+        margin-bottom: 10%;
+        margin-left:10%;
+    }
+
+    .section-title{
+        text-align: left;
+    }
+    
+    .box1{
+        width: 70%;
+    }
+}

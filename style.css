@@ -1,3 +1,7 @@
+/* *{
+  box-sizing:border-box;
+} */
+
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0px;
@@ -44,7 +48,7 @@ a:hover {
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -103,8 +107,8 @@ a:hover {
 
 .service-icon p {
   position: absolute;
-  top: 90px;
-  width: 100px;
+  top: 44%;
+  width: 100%;
   color: black;
 }
 
@@ -129,13 +133,14 @@ a:hover {
 .box1{
     width: 20%;
     border-radius: 25px;
-    background-color: white;
+    /* background-color: white; */
     margin: 10px;
 }
 
 .img-fluid{
     margin: 10px;
-    width: 20%;
+    width: 40%;
+    border-radius: 50%;
 }
 
 /* .header-list .About_Page:hover{
