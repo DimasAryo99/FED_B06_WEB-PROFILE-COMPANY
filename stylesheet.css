@@ -1,61 +1,124 @@
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     margin: 0px;
-}
-li {
+  }
+  li {
     list-style: none;
   }
-header {
-    background-color: hsla(152, 61%, 42%, 0.795);
+  header {
+    background-color: #2aac6fcb;
     color: #fff;
     height: 90px;
     top: 0px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
- .navbar{
+  .navbar {
     width: 1170px;
     padding: 0px auto;
-    float:left;
+    float: left;
     text-align: center;
-} 
-.header-left img{
-    height:70px;
+  }
+  .header-left img {
+    height: 70px;
     width: 70px;
-    padding:10px 10px ;
+    padding: 10px 10px;
     font-size: 36px;
-    object-fit:cover;
+    object-fit: cover;
     float: left;
-}
-.header-list li{
+  }
+  .header-list li {
     float: left;
-    font-size:20px;
-    margin:10px 20px;
+    font-size: 20px;
+    margin: 10px 20px;
     display: block;
     font-weight: bold;
-}
-a{
+  }
+  a {
     color: #fff;
-}
-
-a:hover{
+  }
+  
+  a:hover {
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    cursor: pointer;  
-}
-
-#footer{
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .main {
+    padding: 180px 0 100px 0;
+    background-image: url(src/image/back.png);
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }
+  
+  .main h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .main p {
+    opacity: 1;
+    margin-bottom: 3px;
+  }
+  
+  .service-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .service {
+    float: left;
+    width: 200px;
+    border-radius: 25px;
+    background: #2aac6fcb;
+    padding: 20px;
+    height: 150px;
+    margin-left: 50px;
+  }
+  
+  .service-icon {
+    position: relative;
+  }
+  
+  .service-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100px;
+    color: black;
+  }
+  #footer {
     font-size: 20px;
-    text-align:  center;
+    text-align: center;
     margin-bottom: 20px;
-}
-
-/* .header-list .About_Page:hover{
-    color: rgba(0, 0, 0, 0.5);
-}
-.header-list .Profil_Page:hover{
-    color: rgba(0, 0, 0, 0.5);
-}
-.header-list .Contact_Page:hover{
-    color: rgba(0, 0, 0, 0.5);
-} */
-
+  }
+  
+  /* .header-list .About_Page:hover{
+      color: rgba(0, 0, 0, 0.5);
+  }
+  .header-list .Profil_Page:hover{
+      color: rgba(0, 0, 0, 0.5);
+  }
+  .header-list .Contact_Page:hover{
+      color: rgba(0, 0, 0, 0.5);
+  } */
+  
