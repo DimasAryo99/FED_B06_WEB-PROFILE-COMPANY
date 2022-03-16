@@ -27,6 +27,9 @@
         margin-bottom: 10%;
         margin-left:10%;
     }
+    .flex-box{
+        width: 50%;
+    }
     .service-icon{
         display: block;
     }

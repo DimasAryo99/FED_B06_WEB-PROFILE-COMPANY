@@ -19,7 +19,7 @@ header {
   position: fixed;
 }
 .navbar {
-  width: 1170px;
+  width: 100%;
   padding: 0px auto;
   float: left;
   text-align: center;
@@ -91,6 +91,7 @@ a:hover {
   transition: 0.5s;
 }
 
+
 .heading {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -98,12 +99,13 @@ a:hover {
 }
 
 .heading h2 {
-  font-weight: normal;
+  font-weight: bold;
+  color: black;
 }
 
 .service {
   float: left;
-  width: 200px;
+  width: 20%;
   border-radius: 25px;
   background: #2aac6fcb;
   padding: 25px;
@@ -141,20 +143,16 @@ a:hover {
     padding-top: 20px;
     
 }
-.section-title p{
-    
-}
-
 
 .box1{
     width: 20%;
     border-radius: 25px;
     /* background-color: white; */
-    margin: 10px;
+    margin: 5px;
 }
 
 .img-fluid{
-    margin: 10px;
+    margin: 5px;
     width: 40%;
     border-radius: 50%;
 }
