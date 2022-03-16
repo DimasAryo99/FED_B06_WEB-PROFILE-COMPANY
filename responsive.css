@@ -1,4 +1,18 @@
 /* coba commit */
+@media all and (max-width: 1000px) {
+    .service {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    /*.service-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }*/
+}
 @media (max-width:670px) {
     .main{
         text-align:left;
@@ -9,7 +23,9 @@
         margin-bottom: 10%;
         margin-left:10%;
     }
-
+    .service-icon{
+        display: block;
+    }
     .section-title{
         text-align: left;
     }

@@ -10,11 +10,13 @@ li {
   list-style: none;
 }
 header {
+  width: 100%;
   background-color: #2aac6fcb;
   color: #fff;
   height: 90px;
   top: 0px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
 }
 .navbar {
   width: 1170px;
@@ -54,6 +56,7 @@ a:hover {
 }
 
 .main {
+  width: 100%;
   padding: 180px 0 100px 0;
   background-image: url(src/image/back.png);
   background-size: cover;
@@ -62,20 +65,27 @@ a:hover {
 }
 
 .main h1 {
+  color: rgb(15, 15, 15);
   opacity: 1;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+  font-size: 80px;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+  text-shadow: 3px 2px 1px grey;
 }
 
 .main p {
-  opacity: 1;
+  opacity: 0.7;
   margin-bottom: 3px;
+  font-size: 30px;
+  background-color: #eceeef;
+  color: black;
 }
 
 .service-wrapper {
   height: 400px;
   padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: white;
   text-align: center;
   transition: 0.5s;
