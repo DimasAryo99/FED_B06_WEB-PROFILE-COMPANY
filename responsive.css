@@ -22,14 +22,38 @@
         text-align:left;
         padding-top:130px;
     }
+
+    .main h1{
+        font-size: 60px;
+    }
+
+    .main p{
+        font-size: 20px;
+    }
+
+    .header-list{
+        display: none;
+    }
+
+    .navbar .menu-icon{
+        display: block;
+    }
+
+    /* .service-wrapper .flex-box{
+        width: 100%;
+    } */
+
     .service{
-        width: 70%;
+        width: 65%;
         margin-bottom: 10%;
         margin-left:10%;
+        margin-right: 10%;
     }
+
     .flex-box{
-        width: 50%;
+        width: 80%;
     }
+
     .service-icon{
         display: block;
     }
