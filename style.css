@@ -106,7 +106,7 @@ a:hover {
   width: 200px;
   border-radius: 25px;
   background: #2aac6fcb;
-  padding: 20px;
+  padding: 25px;
   height: 150px;
   margin-left: 30px;
 }
@@ -115,8 +115,6 @@ a:hover {
   position: relative;
 }
 .service a {
-  line-height: 65px;
-  padding: 0 25px;
   color: white;
   display: block;
 }
