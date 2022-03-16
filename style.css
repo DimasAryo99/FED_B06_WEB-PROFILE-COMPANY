@@ -114,7 +114,15 @@ a:hover {
 .service-icon {
   position: relative;
 }
-
+.service a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.service:hover{
+  background-color: rgba(149, 240, 179, 0.781);
+}
 .service-icon p {
   position: absolute;
   top: 44%;
@@ -263,7 +271,7 @@ margin:0
 }
 .social-icons
 {
-padding-left:0;
+padding-right:30px;
 margin-bottom:0;
 list-style:none
 }
