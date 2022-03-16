@@ -8,14 +8,6 @@
     .section-title{
         margin-top: 20%;
     }
-    
-    /*.service-wrapper h1 {
-      font-size: 32px;
-    }
-    
-    .heading h2 {
-      font-size: 20px;
-    }*/
 }
 @media (max-width:670px) {
     .main{
@@ -38,11 +30,7 @@
     .navbar .menu-icon{
         display: block;
     }
-
-    /* .service-wrapper .flex-box{
-        width: 100%;
-    } */
-
+    
     .service{
         width: 65%;
         margin-bottom: 10%;
